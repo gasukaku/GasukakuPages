@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Noto+Sans+JP&display=swap');
+
+body {
+  margin:auto;
+} 
+p {
+  margin:auto;
+}
+
+
+header {
+    font-family: "Barlow", sans-serif;
+    background-color: #fff;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size:20px;
+  }
+  
+  /* 区切り線 */
+  
+  header::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+    /* コンテナ */
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* 左側 */
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left img {
+    width: 80px;
+    height: 100px;
+  }
+  
+  /* 右側 */
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sns-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sns-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .sns-links li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .sns-links li a:hover {
+    color: #ccc;
+  }
+  
+  .sns-links li a i {
+    color: #000;
+  }
+
+
+main {
+  
+  margin-top: 120px; 
+  font-family:"Barlow","Noto Sans JP", sans-serif;
+  text-align: center;
+    
+} 
+
+.head-image{
+  color: rgb(0, 233, 116);
+} 
+
+
+@media screen and (max-width: 767px) {
+.hed-image {
+  padding:350px 0px;
+  background-image: url(back-image-smp.JPG);
+  background-size: 510px;
+}
+}
+
+@media screen and (min-width: 767px) {
+  .hed-image {
+    padding:350px 0px;
+    background-image: url(back-image-pc.JPG);
+    background-size: 2000px;
+
+  }
+  }
+
+  h1.h1-m {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+    position: relative;
+    padding: 0 10px;
+    font-family:"Barlow","Noto Sans JP", sans-serif;
+    .underline {
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #77dd77;
+    }
+  }
+    
+    
+  
+  h1.h1-m::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background-color: #77dd77;
+  }
+  h1.h1-m {
+    text-align: left;
+    padding:0px 50px;
+  }
+ 
+  
+main a {
+  color:#000
+}
+main a:hover {
+  color:#b3b3b3
+}
+
+
+ main {
+   @media (min-width: 768px) {
+  img {
+    width: 500px;
+    }
+}
+   @media (max-width: 767px) {
+  img {
+    width: 45%;
+    }
+}
+  }
+  p {
+    padding: left 3px;
+  }
+  
+  .material-symbols-outlined{
+    display: inline-flex;
+    vertical-align: middle;
+    }
+
+  button {
+    background-color: #000; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    font-family:"Barlow","Noto Sans JP", sans-serif;
+    cursor: pointer; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    &:hover {
+      background-color: #333; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+  }
+  .out {
+    color:#8a8989
+  }
+  .footer {
+    padding-top:10px;
+    background-color: #000;
+    color:white;
+  }
+  .errorcode {
+    padding:300px 0px;
+    }
+   
+   @media screen and (max-width: 767px) {
+      .title {
+        padding: 50px 0px;
+        background-image: url(headerimage.jpg);
+        background-size: 500px;
+        color:white;
+      }
+      }
+      
+      @media screen and (min-width: 767px) {
+        .title {
+          padding: 90px 0px;
+      background-image: url(headerimage.jpg);
+      background-size: 1950px;
+      color:white;
+        }
+        }
