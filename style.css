@@ -103,7 +103,7 @@ main {
 @media screen and (max-width: 767px) {
 .hed-image {
   padding:350px 0px;
-  background-image: url(back-image-smp.JPG);
+  background-image: url(/back-image-smp.JPG);
   background-size: 510px;
 }
 }
@@ -111,7 +111,7 @@ main {
 @media screen and (min-width: 767px) {
   .hed-image {
     padding:350px 0px;
-    background-image: url(back-image-pc.JPG);
+    background-image: url(/back-image-pc.JPG);
     background-size: 2000px;
 
   }
@@ -211,7 +211,7 @@ main a:hover {
    @media screen and (max-width: 767px) {
       .title {
         padding: 50px 0px;
-        background-image: url(headerimage.jpg);
+        background-image: url(/headerimage.jpg);
         background-size: 500px;
         color:white;
       }
@@ -220,7 +220,7 @@ main a:hover {
       @media screen and (min-width: 767px) {
         .title {
           padding: 90px 0px;
-      background-image: url(headerimage.jpg);
+      background-image: url(/headerimage.jpg);
       background-size: 1950px;
       color:white;
         }
