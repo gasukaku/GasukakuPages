@@ -102,8 +102,8 @@ main {
 
 @media screen and (max-width: 767px) {
 .hed-image {
-  padding:250px 0px;
-  background-image: url(/back-image-smp.JPG);
+  padding:300px 0px;
+  background-image: url(/back-image-pc.JPG);
   background-size: 510px;
 }
 }
@@ -111,7 +111,7 @@ main {
 @media screen and (min-width: 767px) {
   .hed-image {
     padding:250px 0px;
-    background-image: url(/back-image-pc.JPG);
+    background-image: url(/back-image-smp.JPG);
     background-size: 2000px;
 
   }
