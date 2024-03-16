@@ -104,7 +104,7 @@ main {
 .hed-image {
   padding:300px 0px;
   background-image: url(/back-image-pc.JPG);
-  background-size: 510px;
+  background-size: px;
 }
 }
 
@@ -112,7 +112,7 @@ main {
   .hed-image {
     padding:300px 0px;
     background-image: url(/back-image-smp.JPG);
-    background-size: 2000px;
+    background-size: px;
 
   }
   }
