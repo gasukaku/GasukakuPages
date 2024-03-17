@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Noto+Sans+JP&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin:auto;
 } 
