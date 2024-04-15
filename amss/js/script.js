@@ -25,3 +25,17 @@ function writeFooter(rootDir){
 }
 
 
+var url = window.location.href;
+
+
+var paramsToRemove = ['domain=f5si'];
+
+paramsToRemove.forEach(function(param) {
+    var regex = new RegExp('[?&]' + param + '=([^&]+)');
+    url = url.replace(regex, '');
+});
+
+
+url = url.replace(/[&?]+/, '');
+
+window.location.href = url;
