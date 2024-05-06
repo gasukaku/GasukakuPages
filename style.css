@@ -230,30 +230,25 @@ main a:hover {
         }
         }
 
-        table {
-          border-collapse: collapse;
-          width: 100%;
+        .container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
         }
         
-        th, td {
-          border: 1px solid #ccc;
-          padding: 10px;
-          text-align: left;
+        .item {
+          width: 200px; /* 画像の幅 */
+          margin: 10px;
         }
         
-        th {
-          background-color: #f0f0f0;
-          font-weight: bold;
+        .item img {
+          width: 100%; /* 画像をアイテムの幅に合わせる */
+          height: auto; /* アスペクト比を維持する */
+          margin-bottom: 10px; /* 画像と説明文の間隔 */
         }
         
-        @media (max-width: 600px) {
-          table {
-            width: 100%; /* 表をコンテナにフィットさせる */
-            font-size: 14px; /* 小さい画面ではフォントサイズを小さくする */
-          }
-        
-          th, td {
-            padding: 5px; /* 小さい画面では余白を減らす */
-          }
+        .item p {
+          margin: 0;
+          text-align: center;
         }
         
