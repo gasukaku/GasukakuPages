@@ -272,4 +272,8 @@ main a:hover {
           margin-bottom: 10px;
           font-size: 14px;
         }
-        
+        .box {
+          border: 1px solid #0f0b0b;
+          padding: 10px;
+          margin: 10px;
+        }
