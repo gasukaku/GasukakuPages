@@ -234,7 +234,15 @@ main a:hover {
         width:200px;
       }
 
-     iframe {
-      width:60%;
-      height:auto;
+     main {
+      @media (min-width: 768px) {
+        iframe {
+          width: 500px;
+          }
+      }
+         @media (max-width: 767px) {
+        iframe {
+          width: 45%;
+          }
+      }
      }
