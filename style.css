@@ -229,3 +229,36 @@ main a:hover {
       color:white;
         }
         }
+
+
+        .link-preview {
+          margin: 10px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .link-preview a {
+          text-decoration: none;
+          color: #333;
+        }
+        
+        .link-preview h3 {
+          margin-top: 0;
+          margin-bottom: 10px;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        
+        .link-preview p {
+          margin-bottom: 10px;
+          font-size: 14px;
+        }
+        
+        .link-preview img {
+          width: 100%;
+          height: auto;
+          margin-bottom: 10px;
+        }
+        
