@@ -235,7 +235,7 @@ main a:hover {
           padding:10px;
         }
         .image-box img {
-          width: 200px; /* 画像の幅 */
+          width: 150px; /* 画像の幅 */
           margin-right: 5px; /* 画像とテキストの間隔 */
         }
         .image-box .text-box {
