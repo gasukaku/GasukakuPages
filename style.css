@@ -233,3 +233,7 @@ main a:hover {
       .note-title img {
         width:200px;
       }
+
+     iframe {
+      width:45%;
+     }
