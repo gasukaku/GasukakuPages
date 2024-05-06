@@ -230,22 +230,6 @@ main a:hover {
         }
         }
 
-        .image-box {
-          display: flex; /* 親要素をフレックスボックスレイアウトにする */
-          padding:10px;
-        }
-        .image-box img {
-          width: 150px; /* 画像の幅 */
-          margin-right: 5px; /* 画像とテキストの間隔 */
-        }
-        .image-box .text-box {
-          flex: 1; /* テキストボックスを親要素の残りのスペースで埋める */
-        }
-        
-        .image-box .text-box h3 {
-          margin: 0; /* マージンをリセット */
-        }
-        
-        .image-box .text-box p {
-          margin: 0; /* マージンをリセット */
-        }
+      .note-title img {
+        width:150px;
+      }
