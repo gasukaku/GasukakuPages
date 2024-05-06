@@ -241,8 +241,12 @@ main a:hover {
       
         @media (min-width: 768px) {
           iframe {
+            width: 90%;
+            height: auto;
+
             width: 70%;
             height: auto;
+
           }
         }
         @media (max-width: 767px) {
