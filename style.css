@@ -230,8 +230,30 @@ main a:hover {
         }
         }
 
-      .pbox {
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin: 10px;
-      }      
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        th, td {
+          border: 1px solid #ccc;
+          padding: 10px;
+          text-align: left;
+        }
+        
+        th {
+          background-color: #f0f0f0;
+          font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+          table {
+            width: 100%; /* 表をコンテナにフィットさせる */
+            font-size: 14px; /* 小さい画面ではフォントサイズを小さくする */
+          }
+        
+          th, td {
+            padding: 5px; /* 小さい画面では余白を減らす */
+          }
+        }
+        
