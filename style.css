@@ -234,15 +234,19 @@ main a:hover {
         width:200px;
       }
 
-     main {
-      @media (min-width: 768px) {
-        iframe {
-          width: 500px;
+      main {
+      iframe {
+          width: 90%; 
+        }
+      
+        @media (min-width: 768px) {
+          iframe {
+            width: 500px;
           }
-      }
-         @media (max-width: 767px) {
-        iframe {
-          width: 45%;
+        }
+        @media (max-width: 767px) {
+          iframe {
+            width: 90%; 
           }
+        }
       }
-     }
