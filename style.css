@@ -230,7 +230,22 @@ main a:hover {
         }
         }
 
-    .pbox img {
-      width:50px;
-    }
-    
+        .image-box {
+          display: flex; /* 親要素をフレックスボックスレイアウトにする */
+        }
+        .image-box img {
+          width: 50px; /* 画像の幅 */
+          height: auto; /* アスペクト比を維持する */
+          margin-right: 20px; /* 画像とテキストの間隔 */
+        }
+        .image-box .text-box {
+          flex: 1; /* テキストボックスを親要素の残りのスペースで埋める */
+        }
+        
+        .image-box .text-box h3 {
+          margin: 0; /* マージンをリセット */
+        }
+        
+        .image-box .text-box p {
+          margin: 0; /* マージンをリセット */
+        }
