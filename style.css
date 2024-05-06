@@ -233,20 +233,3 @@ main a:hover {
       .note-title img {
         width:200px;
       }
-
-      main {
-      iframe {
-          width: 90%; 
-        }
-      
-        @media (min-width: 768px) {
-          iframe {
-            width: 90%;
-            height: auto;
-        }
-        @media (max-width: 767px) {
-          iframe {
-            width: 50%; 
-          }
-        }
-      }
