@@ -234,8 +234,8 @@ main a:hover {
           display: flex; /* 親要素をフレックスボックスレイアウトにする */
         }
         .image-box img {
-          width: 50px; /* 画像の幅 */
-          margin-right: 20px; /* 画像とテキストの間隔 */
+          width: 100px; /* 画像の幅 */
+          margin-right: 5px; /* 画像とテキストの間隔 */
         }
         .image-box .text-box {
           flex: 1; /* テキストボックスを親要素の残りのスペースで埋める */
