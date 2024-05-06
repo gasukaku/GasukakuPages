@@ -230,25 +230,7 @@ main a:hover {
         }
         }
 
-        .container {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-        }
-        
-        .item {
-          width: 200px; /* 画像の幅 */
-          margin: 10px;
-        }
-        
-        .item img {
-          width: 100%; /* 画像をアイテムの幅に合わせる */
-          height: auto; /* アスペクト比を維持する */
-          margin-bottom: 10px; /* 画像と説明文の間隔 */
-        }
-        
-        .item p {
-          margin: 0;
-          text-align: center;
-        }
-        
+    .pbox img {
+      width:30px;
+    }
+    
