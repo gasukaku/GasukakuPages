@@ -232,8 +232,7 @@ main a:hover {
 
         .image-box {
           display: flex; /* 親要素をフレックスボックスレイアウトにする */
-          align-items: center; /* 子要素を垂直方向に中央揃えにする */
-          justify-content: center; /* 子要素を水平方向に中央揃えにする *
+          padding:10px;
         }
         .image-box img {
           width: 200px; /* 画像の幅 */
