@@ -241,13 +241,12 @@ main a:hover {
       
         @media (min-width: 768px) {
           iframe {
-            width: 500px;
-            height:281px;
+            width: 90%;
           }
         }
         @media (max-width: 767px) {
           iframe {
-            width: 90%; 
+            width: 70%; 
           }
         }
       }
