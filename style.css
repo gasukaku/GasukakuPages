@@ -230,47 +230,6 @@ main a:hover {
         }
         }
 
-
-        .link-preview {
-          border: 1px solid #0f0b0b;
-          padding: 10px;
-          margin: 10px;
-          display: flex;
-          flex-direction: row;
-          margin: 10px;
-          border-radius: 5px;
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        
-        .link-preview a {
-          text-decoration: none;
-          color: #333;
-        }
-        
-        .link-preview-image {
-          width: 150px; /* 横幅を調整 */
-          height: auto;
-          margin-right: 10px;
-        }
-        
-        .link-preview-image img {
-          width: 100%;
-          height: auto;
-        }
-        
-        .link-preview-content {
-          flex: 1;
-        }
-        
-        .link-preview-content h3 {
-          margin-top: 0;
-          margin-bottom: 10px;
-          font-size: 18px;
-          font-weight: bold;
-        }
-        
-        .link-preview-content p {
-          margin-bottom: 10px;
-          font-size: 14px;
-        }
-      
+      .pbox {
+        border: 1px solid #000000;
+      }      
