@@ -235,7 +235,6 @@ main a:hover {
         }
         .image-box img {
           width: 50px; /* 画像の幅 */
-          height: auto; /* アスペクト比を維持する */
           margin-right: 20px; /* 画像とテキストの間隔 */
         }
         .image-box .text-box {
