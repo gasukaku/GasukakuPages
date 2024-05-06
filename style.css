@@ -232,6 +232,8 @@ main a:hover {
 
 
         .link-preview {
+          display: flex;
+          flex-direction: row;
           margin: 10px;
           padding: 10px;
           border: 1px solid #ccc;
@@ -244,21 +246,30 @@ main a:hover {
           color: #333;
         }
         
-        .link-preview h3 {
+        .link-preview-image {
+          width: 150px; /* 横幅を調整 */
+          height: auto;
+          margin-right: 10px;
+        }
+        
+        .link-preview-image img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .link-preview-content {
+          flex: 1;
+        }
+        
+        .link-preview-content h3 {
           margin-top: 0;
           margin-bottom: 10px;
           font-size: 18px;
           font-weight: bold;
         }
         
-        .link-preview p {
+        .link-preview-content p {
           margin-bottom: 10px;
           font-size: 14px;
-        }
-        
-        .link-preview img {
-          width: 100%;
-          height: auto;
-          margin-bottom: 10px;
         }
         
