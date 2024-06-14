@@ -179,7 +179,8 @@ main {
   } 
   }
   p {
-    padding: left 3px;
+    padding: left 15px;
+    line-height: 10px;
   }
   
   .material-symbols-outlined{
