@@ -180,7 +180,7 @@ main {
   }
   p {
     
-    line-height: 10px;
+   margin:left 5px;
   }
   
   .material-symbols-outlined{
