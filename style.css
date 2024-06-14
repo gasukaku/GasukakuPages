@@ -94,7 +94,7 @@ main {
   
   margin-top: 120px; 
   font-family:"Barlow","Noto Sans JP", sans-serif;
-  
+  padding:0px,15px
     
 } 
 
@@ -108,6 +108,7 @@ main {
   padding:250px 0px;
   background-image: url(back-image-smp.JPG);
   background-size: 510px;
+  text-align: center;
 }
 }
 
