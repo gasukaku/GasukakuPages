@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -28,5 +29,6 @@ body {
   }
   
   .completed {
-    text-decoration: line-through; /* 完了した課題に線引き */
+    text-decoration: line-through;
+    background-color: rgb(172, 238, 255);
   }
