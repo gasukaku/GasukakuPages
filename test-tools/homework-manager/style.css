@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .delete-btn, .complete-btn {
+    background-color: #f00; /* 削除ボタンは赤 */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .complete-btn {
+    background-color: #4CAF50; /* 完了ボタンは緑 */
+  }
+  
+  .completed {
+    text-decoration: line-through; /* 完了した課題に線引き */
+  }
