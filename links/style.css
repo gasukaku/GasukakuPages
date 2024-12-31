@@ -18,6 +18,14 @@ body {
     }
   }
   
+  a:link {
+    color: black; 
+  }
+  
+  a:visited {
+    color: black; 
+  }
+
   /*ボックス*/
   .container {
     background-color: rgba(232, 226, 226, 0.144); 
