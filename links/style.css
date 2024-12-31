@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+
+body {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    background-image: url("background.JPG"); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    margin: 0;
+    margin-top:20px;
+    background-size: cover;
+  }
+  @media (max-width: 768px) {
+    body {
+      background-image: url("background-mb.JPG"); 
+    }
+  }
+  
+  /*ボックス*/
+  .container {
+    background-color: rgba(232, 226, 226, 0.144); 
+    backdrop-filter: blur(7px);
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%; 
+    max-width: 1200px; 
+    box-sizing: border-box; 
+  }
+  
+  .icon-wrapper {
+    display: flex; 
+    margin-bottom: 10px; 
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd; 
+  }
+  
+  .icon1 {
+    background-image: url("logo_v2.jpg");
+    margin-right: 20px;
+    background-size: cover;
+  }
+  
+  .icon2 {
+    background-image: url("logo_v3.jpg");
+    margin-right: 20px;
+    background-size: cover;
+  }
+  
+ 
+  .name {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .position {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  /*ボタン配置*/
+  
+  .sns-buttons {
+    display: flex;
+    flex-wrap: wrap; 
+    padding:15px;
+    
+  }
+/*ボタン配置-モバイル*/
+  @media (max-width: 768px) { 
+    .sns-buttons {
+      flex-direction: column; 
+      justify-content: center; 
+      padding:10px;
+    }
+  
+  }
+
+  /*ボタンデザイン*/
+  .sns-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eee;
+  border-radius: 5px; 
+  text-decoration: none;
+  color: #333;
+  margin: 15px;
+  flex-grow: 1; 
+  width: 30%;
+  
+  }
+  
+   @media (max-width: 768px) { 
+    .sns-buttons {
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+    }
+  
+    .sns-button {
+      width: 80%; 
+    }
+  }
+
+  .sns-button-title {
+  display: block;
+  font-weight: bold;
+ 
+  }
+
+  .sns-button:hover {
+    background-color: #969696; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /*ローディング画面*/
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /* z-index */
+    transition: opacity 0.5s ease-in-out; 
+  }
+  
+  #loading.hidden {
+    opacity: 0; 
+    visibility: hidden; /* クリックなどを防ぐ */
+  }
+  
+  .loading-spinner {
+    border: 8px solid #f3f3f3; 
+    border-radius: 50%;
+    border-top: 8px solid #63e400; 
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite; 
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /*区切り線*/
+  .line {
+    border: none;
+    border-top: 2px dashed black; 
+  }
