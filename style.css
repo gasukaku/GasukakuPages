@@ -257,26 +257,30 @@ main {
     }
     
     .green {
-        background-color: #adf1be; /* 薄い青色 */
+        background-color: #adf1be; 
     }
 
     .skyblue {
-      background-color: #bcfdff; /* 薄い青色 */
+        background-color: #bcfdff; 
   }
     
     .gray {
-        background-color: #f5f5f5; /* 薄い灰色 */
+        background-color: #f5f5f5; 
+    }
+
+    .red {
+        background-color: rgb(243, 196, 196);
     }
     
-    /* スマホサイズでの調整 */
+ 
     @media (max-width: 768px) {
         .box {
-            width: 90%; /* 全幅表示 */
+            width: 90%; 
         }
     }
     
     .button2 {
-      background-color: #4fc3f7; /* 濃いめの青色 */
+      background-color: #4fc3f7; 
       color: white; /* 文字色 */
       border: none; /* 枠線を消す */
       padding: 10px 20px; /* ボタン内の余白 */
@@ -291,3 +295,11 @@ main {
   .button2:hover {
       background-color: #29b6f6; /* ホバー時の色 */
   }
+
+  .info-box {
+    margin-top:15px;
+    border-radius: 10px; /* 角丸 */
+    padding: 20px;
+    box-sizing: border-box; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
