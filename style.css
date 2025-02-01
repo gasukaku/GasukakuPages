@@ -297,6 +297,7 @@ main {
   }
 
   .info-box {
+    width:90%;
     margin-top:15px;
     border-radius: 10px; /* 角丸 */
     padding: 20px;
