@@ -311,3 +311,15 @@ main {
     box-sizing: border-box; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), inset 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
+
+ .unsupported {
+    display: none;
+  }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .unsupported {
+        display: block;
+  }
+    .supported {
+        display: none;
+  }
+ }
