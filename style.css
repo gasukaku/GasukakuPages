@@ -271,7 +271,14 @@ main {
     .red {
         background-color: rgb(243, 196, 196);
     }
-    
+
+    .yellow {
+        background-color: rgb(255, 255, 178);
+    }
+
+    .not-allowed {
+       cursor: not-allowed;
+    }
  
     @media (max-width: 768px) {
         .box {
@@ -281,12 +288,12 @@ main {
     
     .button2 {
       background-color: #4fc3f7; 
-      color: white; /* 文字色 */
+      color: white; 
       border: none; /* 枠線を消す */
-      padding: 10px 20px; /* ボタン内の余白 */
+      padding: 10px 20px; 
       border-radius: 10px; /* 角丸 */
       cursor: pointer; /* マウスオーバーでカーソルを変更 */
-      transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+      transition: background-color 0.3s ease; 
       margin-top:10px;
       margin-right:10px;
       margin-left:10px;
