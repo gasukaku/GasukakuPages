@@ -106,7 +106,7 @@ main {
 
 @media screen and (max-width: 767px) {
 .hed-image {
-  padding:350px 0px;
+  padding:45% 0px;
   background-image: url(back-image-smp.webp);
   background-size: 510px;
   text-align: center;
@@ -115,12 +115,13 @@ main {
 
 @media screen and (min-width: 767px) {
   .hed-image {
-    padding:270px 0px;
+    padding:45% 0px;
     background-image: url(back-image-pc.webp);
     background-size: 2000px;
 
   }
   }
+  
 
   h1.h1-m {
     font-size: 24px;
