@@ -332,3 +332,8 @@ main {
         display: none;
   }
  }
+
+ .hed-img-text {
+  background-color: rgba(0, 0, 0, 0.144); 
+  backdrop-filter: blur(7px);
+ }
