@@ -118,7 +118,9 @@ main {
   .hed-image {
     padding:10% 0px;
     background-image: url(background.webp);
-    background-position: 50% 50%; ;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
     
   }
   }
