@@ -116,10 +116,10 @@ main {
 
 @media screen and (min-width: 767px) {
   .hed-image {
-    padding:5% 0px;
+    padding:10% 0px;
     background-image: url(background.webp);
     background-position: 50% 50%; ;
-    background-repeat: no-repeat;
+    
   }
   }
 
