@@ -108,8 +108,10 @@ main {
 .hed-image {
   padding:20% 0px;
   background-image: url(background.webp);
-  /*background-size: 510px;*/
+  background-size: cover;
   text-align: center;
+  background-color: rgba(232, 226, 226, 0.201); 
+  backdrop-filter: blur(5px);
 }
 }
 
@@ -117,16 +119,13 @@ main {
   .hed-image {
     padding:5% 0px;
     background-image: url(background.webp);
-    /*background-size: 2000px;*/
-
+    background-size: cover;
+    background-color: rgba(232, 226, 226, 0.201); 
+    backdrop-filter: blur(5px);
   }
   }
 
-  .hed-image {
-  background-color: rgba(232, 226, 226, 0.201); 
-  backdrop-filter: blur(5px);
-  }
-  
+ 
 
   h1.h1-m {
     font-size: 24px;
