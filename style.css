@@ -336,4 +336,6 @@ main {
  .hed-img-text {
   background-color: rgba(0, 0, 0, 0.144); 
   backdrop-filter: blur(7px);
+  padding:10px;
+  margin:20px;
  }
