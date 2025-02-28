@@ -119,6 +119,7 @@ main {
     padding:5% 0px;
     background-image: url(background.webp);
     background-position: 50% 50%; ;
+    background-repeat: no-repeat;
   }
   }
 
